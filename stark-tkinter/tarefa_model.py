@@ -20,7 +20,7 @@ class Tarefa:
         return (f"Id: {self.id} \n"
                 f"Nome: {self.nome} \n"
                 f"Descrição: {self.descricao} \n"
-                f"Data: {self.data} \n"
+                f"Data: {self.data_inicio} \n"
                 f"Status: {self.status}")
 
 
